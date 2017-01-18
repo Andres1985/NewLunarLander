@@ -3,7 +3,7 @@ var fuel=fuelInicial;
 
 var velocidadImpacto = 5;
 
-var alturaInicio=15;
+var alturaInicio=17;
 var y=alturaInicio;
 var recorrido=60;
 var puntoAterrizaje=alturaInicio+recorrido;
