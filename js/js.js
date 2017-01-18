@@ -45,7 +45,6 @@ window.onload = function(){
 		start();
 	}
 	//encender/apagar el motor al hacer click en la pantalla
-
 	
 	document.ontouchstart = function () {
   		motorOn();
@@ -54,14 +53,6 @@ window.onload = function(){
 	document.ontouchend = function () {
   		motorOff();
  	  }
-
-	/*document.onclick = function () {
- 	  if (a==g){
-  		motorOn();
- 	  } else {
-  		motorOff();
- 	  }
-	}*/
 
 	//encender/apagar al apretar/soltar una tecla
 	document.onkeydown = function keyCode(event) {
@@ -156,6 +147,7 @@ window.onload = function(){
 	document.getElementById("continuarPausa").onclick = function(){
 		ocultar();
 	}
+
 
 	//Seleccion de nivel
 	document.getElementById("facilNivel").onclick = function(){
