@@ -43,7 +43,7 @@ ul {
 
 /*Estilos menu oculto*/
 
-.elementomenu {
+.elementomenu{
     display: block;
     background-color: dodgerblue;
     font-weight: bold;
@@ -193,12 +193,22 @@ ul {
     font-size: 5vw;
 }
 
+#parrafoBienvenida{
+    height:75%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+   
+
 /*Menu instrucciones*/
 
-#divinstrucciones p{
+#divinstrucciones .parrafosEmergentes{
     font-family: 'Aldrich', sans-serif;
     text-align: justify;
     font-weight: bold;
+    height:75%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 /*Menu opciones*/
@@ -272,6 +282,13 @@ ul {
 
 #facilNivel, #naveOpcion, #lunaOpcion{
     text-decoration: underline;
+
 }
 
 #play{display: none}
+
+#opcionesParaMovil{
+    height:80%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
