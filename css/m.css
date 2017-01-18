@@ -148,7 +148,7 @@ ul {
     font-family: 'Aldrich', sans-serif;
     background-color: purple;
     font-weight: bold;
-	font-size: 7vw;
+	font-size: 6vw;
     text-align: center;
     color: gold;
     border: 5px darkorchid double;
@@ -159,7 +159,7 @@ ul {
 }
 
 .volverMovil{
-    font-size: 6vw;
+    font-size: 5vw;
     position: fixed;
     margin: 0;
     bottom: 5%;
@@ -170,7 +170,7 @@ ul {
 .divEmergente li,#rejugar,#bienvenidaJugar{
     background-color: dodgerblue;
     font-weight: bold;
-	font-size: 6.75vw;
+	font-size: 5.5vw;
     text-align: center;
     color: darkorange;
     border: 5px deepskyblue outset;
@@ -197,7 +197,7 @@ ul {
 
 #divinstrucciones p{
     font-family: 'Aldrich', sans-serif;
-    font-size: 6vw;
+    font-size: 5vw;
     text-align: justify;
     font-weight: bold;
 }
@@ -218,7 +218,7 @@ ul {
 /*Div About*/
 
 #divabout p{
-    font-size: 6vw;
+    font-size: 5vw;
     text-align: center;
     font-weight: bold;
 }
