@@ -28,7 +28,7 @@ En esta versión se incluyen los siguientes elementos:
    2. *Divs de navegación:* También ocupan toda la pantalla.
 
 ### Aportaciones al JS:
-## Eventos:
+#### Eventos:
 * **Cambios al cargar la página:** Antes: empezaba a jugar directamente. Ahora: muestra mensaje de bienvenida.
 * **Eliminación de "clic" para mover nave:** Antes al hacer clic en el ratón se activaba la nave. Ahora ya no.
 * **Sistema de juego:**
