@@ -21,22 +21,22 @@ En esta versión se incluyen los siguientes elementos:
 * **Incorporacion de todas mis imagenes:** He añadido mis imagenes donde no las había (nave, fondos, etc.) 
 * **Discriminación entre PC y móvil:** Grcias a unas clases definidas en el HTML y display:none, podemos elegir que elementos se muestran en cada dispositivo.
 * **Estilo PC:**
-1. *Menu superior:* Colocar el menú superior correctamente y de forma horizontal.
-2. *Divs de navegación:* Centrados, todos manteniendo el mismo  estilo.
+   1. *Menu superior:* Colocar el menú superior correctamente y de forma horizontal.
+   2. *Divs de navegación:* Centrados, todos manteniendo el mismo  estilo.
 * **Estilo Movil** 
-1. *Menu oculto:* Ocupa toda la pantalla.
-2. *Divs de navegación:* También ocupan toda la pantalla.
+   1. *Menu oculto:* Ocupa toda la pantalla.
+   2. *Divs de navegación:* También ocupan toda la pantalla.
 
 ### Aportaciones al JS:
 ## Eventos:
 * **Cambios al cargar la página:** Antes: empezaba a jugar directamente. Ahora: muestra mensaje de bienvenida.
 * **Eliminación de "clic" para mover nave:** Antes al hacer clic en el ratón se activaba la nave. Ahora ya no.
 * **Sistema de juego:**
-1. *Móvil:* La nave se mueve al poner el dedo en la pantalla (ontouch).
-2. *PC:* La nave se mueve SOLO al pulsar la barra espaciadora (no funciona con ninguna otra tecla). Además al pulsar la tecla P nos lleva al menú de pausa.
+   1. *Móvil:* La nave se mueve al poner el dedo en la pantalla (ontouch).
+   2. *PC:* La nave se mueve SOLO al pulsar la barra espaciadora (no funciona con ninguna otra tecla). Además al pulsar la tecla P nos lleva al menú de pausa.
 * **Mostrar/Ocultar los divs de los elementos del menú (instrucciones, opciones, about...):**
-1. *Móvil:* Al estar en el menú principal y clicar sobre los botones nos lleva a los divs correspondientes. Cada div contiene un botón "Volver" que nos permite volver al menú principal.
-2. *PC:* Cada vez que se da clic en un elemento del menú superior, se cierran los otros y se abre el nuevo que queremos ver. Si volvemos a hacer clic sobre el botón de un menú que tenemos abierto, el div se cierra y el juego continúa.
+   1. *Móvil:* Al estar en el menú principal y clicar sobre los botones nos lleva a los divs correspondientes. Cada div contiene un botón "Volver" que nos permite volver al menú principal.
+   2. *PC:* Cada vez que se da clic en un elemento del menú superior, se cierran los otros y se abre el nuevo que queremos ver. Si volvemos a hacer clic sobre el botón de un menú que tenemos abierto, el div se cierra y el juego continúa.
 ----
 * **Estilo Movil** 
 1. *Menu oculto:* Ocupa toda la pantalla.
