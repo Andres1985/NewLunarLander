@@ -152,7 +152,7 @@ ul {
     text-align: center;
     color: gold;
     border: 5px darkorchid double;
-    border-radius: 7px;
+    border-radius: 6.5px;
     width: 90%;
     margin: 4% auto;
     overflow: hidden;  
@@ -190,14 +190,13 @@ ul {
     border: 3px #595959 solid;
     color: lime;
     padding: 0% 3%;
-    font-size: 5.75vw;
+    font-size: 5vw;
 }
 
 /*Menu instrucciones*/
 
 #divinstrucciones p{
     font-family: 'Aldrich', sans-serif;
-    font-size: 5vw;
     text-align: justify;
     font-weight: bold;
 }
