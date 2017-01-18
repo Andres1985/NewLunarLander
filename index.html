@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Lunar Landing</title>
+    <meta charset="UTF-8">
     <meta name="description" content="Juego de aterrizar un cohete sobre la luna">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
@@ -58,9 +59,11 @@
         </div>
         <h2 class="volverMovil">Volver</h2>
     </div>
+    <!--El próximo div es igual que el de instrucciones, pero al intentar transformar el otro con JS me daba varios problemas, así que he optado por esto-->
     <div class="divEmergente" id="divBienvenida">
+        
         <h1>Bienvenido a Lunar Lander</h1>
-        <div class=parrafosEmergentes>
+        <div class=parrafosEmergentes id="parrafoBienvenida">
         <p>El objetivo de Lunar Lander es aterrizar la nave sobre la superficie de la Luna sin que se estrelle.</p>
         <p>Puedes propulsar la nave <span class="pc">usando la Barra Espaciadora</span><span class="movil">tocando la pantalla</span> 
         para reducir su velocidad y evitar que explote. ¡Pero ves con cuidado! La gasolina es limitada y podrías quedarte sin ella.
@@ -72,31 +75,35 @@
         <h2 id="bienvenidaJugar">JUGAR</h2>
     </div>
     <div class="divEmergente" id="divopciones">
-        <h1>Dificultad</h1>
-        <ul>
-            <li class="listaOpciones" id="facilNivel">Fácil</li>
-            <li class="listaOpciones" id="medioNivel">Medio</li>
-            <li class="listaOpciones" id="dificilNivel">Difícil</li>
-        </ul>
-        <p class=parrafosEmergentes id="parrafoNivel">FÁCIL: Tienes 100 litros de combustible y debes aterrizar a menos de 5 m/s.</p>
-        <h1>Nave</h1>
-        <ul>
-            <li class="listaOpciones listaEspecial" id="naveOpcion">Nave</li>
-            <li class="listaOpciones listaEspecial" id="ovniOpcion">OVNI</li>
-        </ul>
-        <h1>Lugar Aterrizaje</h1>
-        <ul>
-            <li class="listaOpciones listaEspecial" id="lunaOpcion">Luna</li>
-            <li class="listaOpciones listaEspecial" id="marteOpcion">Marte</li>
-        </ul>
-        <h2 class="volverMovil">Volver</h2>
+        <div id="opcionesParaMovil">
+            <h1>Dificultad</h1>
+            <ul>
+                <li class="listaOpciones" id="facilNivel">Fácil</li>
+                <li class="listaOpciones" id="medioNivel">Medio</li>
+                <li class="listaOpciones" id="dificilNivel">Difícil</li>
+            </ul>
+            <p class=parrafosEmergentes id="parrafoNivel">FÁCIL: Tienes 100 litros de combustible y debes aterrizar a menos de 5 m/s.</p>
+            <h1>Nave</h1>
+            <ul>
+                <li class="listaOpciones listaEspecial" id="naveOpcion">Nave</li>
+                <li class="listaOpciones listaEspecial" id="ovniOpcion">OVNI</li>
+            </ul>
+            <h1>Lugar Aterrizaje</h1>
+            <ul>
+                <li class="listaOpciones listaEspecial" id="lunaOpcion">Luna</li>
+                <li class="listaOpciones listaEspecial" id="marteOpcion">Marte</li>
+            </ul>
+        </div>
+        <h2 class="volverMovil">Volver</h2>        
     </div>
     <div class="divEmergente" id="divabout">
         <h1>Acerca de...</h1>
-        <div class=parrafosEmergentes>
-        <p>IES Francesc Borja Moll</p>
-        <p>1º DAM</p>
+        <div class=parrafosEmergentes id="parrafosAbout">
+        <p>IES Francesc Borja Moll - 1º DAM</p>
         <p>Ramón Moreno</p>
+        <p>Con la ayuda de:</p>
+        <p>http://www.w3schools.com/</p>
+        <p>http://stackoverflow.com/</p>
         </div>
         <h2 class="volverMovil">Volver</h2>
     </div>
