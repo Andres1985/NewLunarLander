@@ -123,17 +123,12 @@ ul {
     width: 25%;
 }
 
-
-
 .parrafosEmergentes{
     background-color: black;
     border: 5px #595959 solid;
     color: lime;
     padding: 0% 3%;
 }
-
-
-
 
 /*MENUS*/
 
@@ -163,7 +158,7 @@ ul {
 #hidem,#showm{display:none}
 
 /*Menu bienvenida*/
-#divBienvenida p, #divinstrucciones p{
+#divBienvenida p, #divinstrucciones p, #parrafosAbout{
     font-family: 'Aldrich', sans-serif;
     font-size: 1.75vw;
     text-align: justify;
@@ -177,6 +172,8 @@ ul {
 #bienvenidaJugar {
     width:50%;
 }
+
+
 
 /*Menu opciones*/
 
