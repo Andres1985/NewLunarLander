@@ -198,7 +198,6 @@ ul {
     overflow-x: hidden;
     overflow-y: scroll;
 }
-   
 
 /*Menu instrucciones*/
 
@@ -282,6 +281,9 @@ ul {
 
 #facilNivel, #naveOpcion, #lunaOpcion{
     text-decoration: underline;
+    background-color: midnightblue;
+    color:crimson;
+    border: 5px royalblue outset; 
 
 }
 
