@@ -140,6 +140,7 @@ window.onload = function(){
 	document.getElementById("reiniciarPausa").onclick = function(){
 		restart();
 		ocultar();
+		
 	}
 
 	document.getElementById("continuarPausa").onclick = function(){
@@ -275,11 +276,7 @@ function actualizarFuel(){
 
 function restart(){
 	reiniciarConfiguracion();
-
-	
 	hayPausa=false;
-	timer=null;
-	timerFuel=null;
 	document.getElementById("divFinJuego").style.display="none";
 }
 
@@ -289,6 +286,10 @@ function reiniciarConfiguracion(){
 	v=0;
 	hayFuel=true;
 	finJuego=false;
+	clearInterval(timer);
+	timer=null;
+	clearInterval(timerFuel);
+	timerFuel=null;
 
 	document.getElementById("fuel").style.color="lime";
 	document.getElementById("fuel").innerHTML=fuel.toFixed();
@@ -396,7 +397,7 @@ function seleccionarFacil(){
 	document.getElementById("facilNivel").style.textDecoration="underline";
 	document.getElementById("medioNivel").style.textDecoration="none";
 	document.getElementById("dificilNivel").style.textDecoration="none";
-	document.getElementById("parrafoNivel").innerHTML="FÁCIL: Tienes 100 litros de combustible y debes aterrizar a menos de 5 m/s.";
+	document.getElementById("parrafoNivel").innerHTML="FÁCIL: Tienes 100 litros de combustible y debes aterrizar a menos de 5 m/s.";	
 	reiniciarConfiguracion();
 }
 
