@@ -58,13 +58,13 @@ window.onload = function(){
     if (x == 32) {
 		motorOn();
     }
-}
+	}
 	document.onkeyup = function keyCode(event) {
     var x = event.keyCode;
     if (x == 32) {
 		motorOff();
     }
-}
+	}
 	
 	//Empezar a JUGAR
 	document.getElementById("bienvenidaJugar").onclick = function(){
@@ -390,7 +390,9 @@ function seleccionarFacil(){
 	document.getElementById("medioNivel").style.textDecoration="none";
 	document.getElementById("dificilNivel").style.textDecoration="none";
 	document.getElementById("parrafoNivel").innerHTML="FÁCIL: Tienes 100 litros de combustible y debes aterrizar a menos de 5 m/s.";
-	restart();
+	if (finJuego==false){
+		restart();
+	}
 }
 
 function seleccionarMedio(){
@@ -400,7 +402,9 @@ function seleccionarMedio(){
 	document.getElementById("medioNivel").style.textDecoration="underline";
 	document.getElementById("dificilNivel").style.textDecoration="none";
 	document.getElementById("parrafoNivel").innerHTML="MEDIO: Tienes 75 litros de combustible y debes aterrizar a menos de 2.5 m/s.";
-	restart();
+	if (finJuego==false){
+		restart();
+	}
 }
 
 function seleccionarDificil(){
@@ -410,7 +414,9 @@ function seleccionarDificil(){
 	document.getElementById("medioNivel").style.textDecoration="none";
 	document.getElementById("dificilNivel").style.textDecoration="underline";
 	document.getElementById("parrafoNivel").innerHTML="DIFÍCIL: Tienes 50 litros de combustible y debes aterrizar a menos de 1 m/s.";
-	restart();
+	if (finJuego==false){
+		restart();
+	}
 }
 
 //Seleccionar nave
