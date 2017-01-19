@@ -16,7 +16,7 @@ Además de lo anterior, se han añadido los siguientes elementos al proyecto.
 
 ### Aportaciones al HTML:
 1. *Head*
-* **UTF-8**
+ * **UTF-8**
  * **Descripción:** Descripción incluida en el meta.
  * **Google fonts:** Incorporación de Fuentes para poderlos utilizar en el CSS.
 2. *Body*
