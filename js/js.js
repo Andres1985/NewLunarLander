@@ -210,7 +210,7 @@ function moverNave(){
 	if(v<velocidadImpacto){
 		document.getElementById("velocidad").style.color="lime";
 	}else if(v<(velocidadImpacto*1.5)){
-		document.getElementById("velocidad").style.color="orangered";
+		document.getElementById("velocidad").style.color="orange";
 	}else{
 		document.getElementById("velocidad").style.color="red";
 	}
@@ -268,7 +268,7 @@ function actualizarFuel(){
 			if (fuel<=fuelInicial/5){
 				document.getElementById("fuel").style.color="red";						
 			}else if (fuel<=fuelInicial/2){
-				document.getElementById("fuel").style.color="orangered";	
+				document.getElementById("fuel").style.color="orange";	
 			}
 			document.getElementById("fuel").innerHTML=fuel.toFixed(2);
 	}
