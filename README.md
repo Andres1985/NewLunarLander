@@ -55,3 +55,6 @@ Se han añadido varias funciones para que los eventos anteriores funciones.
 ###Otros
 * Si la nave sube mucho, también acaba el juego.
 * En el movil se han añadido unos scrolls en el menú de Bienvenida, Instrucciones y Opciones, por si no cabe todo en alguna pantalla.
+* En el ordenador tenemos hover para cuando se pasa el ratón por algún botón para hacer clic, en el móvil el hover no he considerado necesario ponerlo ya que cuando tocas con el dedo directamente te envía al sitio que quieres.
+* Las opciones elegidas (por ejemplo, "Difícil", "Nave" y "Luna")se diferencian con un subrayado.
+* Cambio de color en el panel de control en la gasolina (si se está acabando va cambiando a naranja y luego a rojo) y en el de la velocidad (si la velocidad es muy alta y nos vamos a estrellar sale en naranja o rojo si se va muy rápido).
