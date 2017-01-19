@@ -274,18 +274,25 @@ function actualizarFuel(){
 }
 
 function restart(){
+	reiniciarConfiguracion();
+
+	
+	hayPausa=false;
+	timer=null;
+	timerFuel=null;
+	document.getElementById("divFinJuego").style.display="none";
+}
+
+function reiniciarConfiguracion(){
 	y=alturaInicio;
 	fuel=fuelInicial;
 	v=0;
-	var timer=null;
-	var timerFuel=null;
 	hayFuel=true;
 	finJuego=false;
-	hayPausa=false;
+
 	document.getElementById("fuel").style.color="lime";
 	document.getElementById("fuel").innerHTML=fuel.toFixed();
 	document.getElementById("naveimg").src="img/"+naveImg+".png";
-	document.getElementById("divFinJuego").style.display="none";
 }
 
 //Cuando el cohete aterriza
@@ -390,9 +397,7 @@ function seleccionarFacil(){
 	document.getElementById("medioNivel").style.textDecoration="none";
 	document.getElementById("dificilNivel").style.textDecoration="none";
 	document.getElementById("parrafoNivel").innerHTML="FÁCIL: Tienes 100 litros de combustible y debes aterrizar a menos de 5 m/s.";
-	if (finJuego==false){
-		restart();
-	}
+	reiniciarConfiguracion();
 }
 
 function seleccionarMedio(){
@@ -402,9 +407,7 @@ function seleccionarMedio(){
 	document.getElementById("medioNivel").style.textDecoration="underline";
 	document.getElementById("dificilNivel").style.textDecoration="none";
 	document.getElementById("parrafoNivel").innerHTML="MEDIO: Tienes 75 litros de combustible y debes aterrizar a menos de 2.5 m/s.";
-	if (finJuego==false){
-		restart();
-	}
+	reiniciarConfiguracion();
 }
 
 function seleccionarDificil(){
@@ -414,9 +417,7 @@ function seleccionarDificil(){
 	document.getElementById("medioNivel").style.textDecoration="none";
 	document.getElementById("dificilNivel").style.textDecoration="underline";
 	document.getElementById("parrafoNivel").innerHTML="DIFÍCIL: Tienes 50 litros de combustible y debes aterrizar a menos de 1 m/s.";
-	if (finJuego==false){
-		restart();
-	}
+	reiniciarConfiguracion();
 }
 
 //Seleccionar nave
