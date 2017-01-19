@@ -253,4 +253,7 @@ ul {
 /*Elementos subrayados en menu opciones*/
 #facilNivel, #naveOpcion, #lunaOpcion{
     text-decoration: underline;
+    background-color: midnightblue;
+    color:crimson;
+    border: 5px royalblue outset;  
 }
