@@ -58,3 +58,4 @@ Se han añadido varias funciones para que los eventos anteriores funciones.
 * En el ordenador tenemos hover para cuando se pasa el ratón por algún botón para hacer clic, en el móvil el hover no he considerado necesario ponerlo ya que cuando tocas con el dedo directamente te envía al sitio que quieres.
 * Las opciones elegidas en el menú de opciones (por ejemplo, "Difícil", "Nave" y "Luna") se diferencian con un subrayado.
 * Cambio de color en el panel de control en la gasolina (si se está acabando va cambiando a naranja y luego a rojo) y en el de la velocidad (si la velocidad es muy alta y nos vamos a estrellar sale en naranja o rojo si se va muy rápido).
+* Si en mitad de una partida en curso se cambia la dificultad el juego se reinicia con las nuevas opciones de dificultad.
