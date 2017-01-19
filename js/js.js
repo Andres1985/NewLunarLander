@@ -1,19 +1,19 @@
 var fuelInicial = 100;
-var fuel=fuelInicial;
+var fuel = fuelInicial;
 
 var velocidadImpacto = 5;
 
-var alturaInicio=17;
-var y=alturaInicio;
-var recorrido=60;
-var puntoAterrizaje=alturaInicio+recorrido;
+var alturaInicio = 17;
+var y = alturaInicio;
+var recorrido = 60;
+var puntoAterrizaje = alturaInicio + recorrido;
 
 var v = 0;
 var g = 1.622;
 var a = g;
 var dt = 0.016683;
-var timer=null;
-var timerFuel=null;
+var timer = null;
+var timerFuel = null;
 
 
 var hayFuel = true;
@@ -24,9 +24,7 @@ var aboutVisible = false;
 var finJuego = false;
 var hayPausa = true;
 
-var naveImg="nave";
-var aterrizajeImg="LUN";
-
+var naveImg = "nave";
 
 //al cargar por completo la página...
 window.onload = function(){
@@ -245,7 +243,7 @@ function motorOn(){
 	a=-g;
 	if (timerFuel==null)
 	timerFuel=setInterval(function(){ actualizarFuel(); }, 10);
-	document.getElementById("naveimg").src="img/"+naveImg+"p.png"
+	document.getElementById("naveimg").src="img/"+naveImg+"p.png";
 	}
 }
 function motorOff(){
@@ -253,7 +251,7 @@ function motorOff(){
 		a=g;
 		clearInterval(timerFuel);
 		timerFuel=null;
-		document.getElementById("naveimg").src="img/"+naveImg+".png"
+		document.getElementById("naveimg").src="img/"+naveImg+".png";
 	}
 	
 }
@@ -419,14 +417,14 @@ function seleccionarDificil(){
 
 function seleccionarNave(){
 	naveImg="nave";
-	document.getElementById("naveOpcion").style.textDecoration="underline"
-	document.getElementById("ovniOpcion").style.textDecoration="none"
+	document.getElementById("naveOpcion").style.textDecoration="underline";
+	document.getElementById("ovniOpcion").style.textDecoration="none";
 }
 
 function seleccionarOvni(){
 	naveImg="ovni";
-	document.getElementById("ovniOpcion").style.textDecoration="underline"
-	document.getElementById("naveOpcion").style.textDecoration="none"
+	document.getElementById("ovniOpcion").style.textDecoration="underline";
+	document.getElementById("naveOpcion").style.textDecoration="none";
 }
 
 //Seleccion lugar aterrizaje
@@ -434,14 +432,14 @@ function seleccionarOvni(){
 function seleccionarLuna(){
 	document.getElementsByClassName("d")[0].style.backgroundImage="url('img/LUN001.png')";
 	document.getElementsByClassName("d")[0].style.backgroundColor="#787878";
-	document.getElementById("lunaOpcion").style.textDecoration="underline"
-	document.getElementById("marteOpcion").style.textDecoration="none"
+	document.getElementById("lunaOpcion").style.textDecoration="underline";
+	document.getElementById("marteOpcion").style.textDecoration="none";
 }
 
 function seleccionarMarte(){
 	document.getElementsByClassName("d")[0].style.backgroundImage="url('img/MARS001.png')";
 	document.getElementsByClassName("d")[0].style.backgroundColor="#DB1616";
-	document.getElementById("marteOpcion").style.textDecoration="underline"
-	document.getElementById("lunaOpcion").style.textDecoration="none"
+	document.getElementById("marteOpcion").style.textDecoration="underline";
+	document.getElementById("lunaOpcion").style.textDecoration="none";
 }
 
