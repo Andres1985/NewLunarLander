@@ -1,7 +1,9 @@
 # LunarLander
 Ramón Moreno
 
-##Versión 1.1
+### Hola.Por favor, si vas a utilizar mi codigo recuerda ponerme como fuente. Gracias. ;)
+
+## Versión 1.1
 
 ###Tareas a desarrollar:
 * **Poner imágenes:** Luna, nave, tierra fija en el fondo, fondo estrellado. Imagenes optimizadas.
