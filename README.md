@@ -1,7 +1,7 @@
 # LunarLander
 Ramón Moreno
 
-### Hola.Por favor, si vas a utilizar mi codigo recuerda ponerme como fuente. Gracias. ;)
+### Hola. Por favor, si vas a utilizar mi codigo recuerda ponerme como fuente. Gracias. ;)
 
 ## Versión 1.1
 
